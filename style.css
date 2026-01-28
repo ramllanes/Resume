@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #decdbb;
+}
+
+
+.header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+
+.header a {
+
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+.Name {
+
+    display: inline-block;
+    position: relative;
+    left: 55%;
+    top: 100px;
+}
+
+
+.Name h1,h3 {
+
+    font-family: 'Horizon', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 0.2;
+    color: white;
+}
+
+
+.Content {
+
+    max-width: 400px;
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    top: 105px;
+}
+
+
+.Content p {
+
+    font-size: 25px;
+    line-height: 1.3;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+}
+
+
+.Feauture {
+
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    left: 48%;
+    top: 40%;
+}
+
+
+.btn {
+
+    position: absolute;
+    bottom: 28%;
+    left: 5%;
+}
+
+
+.btnHire {
+
+    width: 100px;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    border: none;
+    background-color: #6d5b47;
+    color: #fff;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: opacity 1s;
+}
+
+
+.btnLets  {
+
+    width: 100px;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 8px;
+    margin-right: 10px;
+    border-color: #6d5b47;
+    cursor: pointer;
+}
+
+
+.prof {
+
+    height: 100%;
+    width: 30%;
+    border-radius: 50%;
+    border: 3px solid #6d5b47;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+
+.prof img {
+
+    width: 70%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 50%;            /* ensures perfect circle */
+    transition: transform 0.5s ease;
+}
+
+
+.display-description {
+
+    position: absolute;
+    border: 1px solid black;
+    height: 300px;
+    width: 450px;
+    left: 5%;
+    top: 150px;
+    background-color: #6d5b47;
+    border-color: #6d5b47;
+    display: flex;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    border-radius: 10px;
+}
+
+
+.weakness {
+
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.btnHire:hover {
+
+    opacity: 0.9;
+}
+
+
+.btnHire:active {
+
+    opacity: 0.4;
+}
+
+
+.btnLets:hover {
+
+    border-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.btnLets:active {
+
+    border-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.prof:hover {
+    transform: scale(0.8);
+}
