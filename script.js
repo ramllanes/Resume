@@ -19,6 +19,7 @@ function Weakness() {
         prof.addEventListener('mouseleave', () => {
             WeakInfo.style.display = 'none';
             Content.style.display = 'block';
+            
 
             status.textContent = originalStatus;
         });
